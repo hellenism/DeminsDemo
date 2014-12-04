@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="view_width">300px</dimen>
+    <dimen name="view_height">400px</dimen>
+    <dimen name="new_colourful_news_image_margin_top">193px</dimen>
+    <dimen name="new_colourful_bottom_place_holder_height">60px</dimen>
+    <dimen name="new_colourful_deco_image_margin_top">212px</dimen>
+    <dimen name="new_colourful_intro_area_margin_bottom">64px</dimen>
+    <dimen name="new_colourful_intro_area_height">300px</dimen>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/colourful_1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/colourful_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" >
+
+        <View
+            android:id="@+id/indicator_placeholder"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/new_colourful_bottom_place_holder_height"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@android:color/white" />
+
+        <LinearLayout
+            android:id="@+id/news_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/new_colourful_news_image_margin_top"
+            android:background="#77000000"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/iv_news"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/colourful_news_1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/decoration_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/new_colourful_deco_image_margin_top"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/iv_decorations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/col_deco_1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lly_news_intro_area"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/new_colourful_intro_area_height"
+            android:layout_above="@id/indicator_placeholder"
+            android:layout_marginBottom="@dimen/new_colourful_intro_area_margin_bottom"
+            android:background="@android:color/black"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <!-- android:minHeight="@dimen/welcome_news_func_min_height" -->
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
